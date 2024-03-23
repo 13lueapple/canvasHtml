@@ -6,3 +6,7 @@ ctx.moveTo(0, 0);
 ctx.lineTo(10,100)
 ctx.closePath();
 ctx.stroke();
+
+canvas.addEventListener("click", e => (
+    alert("wow")
+))
